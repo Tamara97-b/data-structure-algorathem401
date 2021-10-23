@@ -49,6 +49,59 @@ class LibraryTest{
         list.append(4);
         assertFalse(list.includes(12));
     }
+    @Test public void appendTest(){
+        LinkedList list =new LinkedList();
+        list.insert(1);
+        list.insert(2);
+        list.insert(3);
+        list.append(4);
+        list.append(5);
+        String expected = "{ 3}->{ 2}->{ 1}->{ 4}->{ 5}->null";
+        assertEquals(expected,list.toString());
+
+    }
+    @Test public void addBeforeTheMiddleNode() {
+        LinkedList list = new LinkedList();
+        list.insert(5);
+        list.append(12);
+        list.append(22);
+        list.append(13);
+        list.append(27);
+        list.insertBefore(22, 17);
+        assertEquals(17, list.head.next.next.value);
+
+    }
+    @Test public void addBeforeFirstNode(){
+        LinkedList list = new LinkedList();
+
+        list.insert(5);
+        list.append(12);
+        list.insertBefore(5,22);
+        assertEquals(22, list.head.value);
+    }
+    @Test public void insertAfterMiddleNode(){
+        LinkedList list = new LinkedList();
+
+        list.insert(5);
+        list.append(12);
+        list.append(22);
+        list.append(13);
+        list.append(27);
+        list.insertAfter(22, 17);
+        assertEquals(17, list.head.next.next.next.value);
+    }
+    @Test public void insertAfterLastNode(){
+        LinkedList list = new LinkedList();
+
+        list.insert(5);
+        list.append(12);
+        list.append(22);
+        list.append(13);
+        list.append(27);
+        list.insertAfter(27, 17);
+        assertEquals(17, list.head.next.next.next.next.next.value);
+    }
+
 
 
 }
