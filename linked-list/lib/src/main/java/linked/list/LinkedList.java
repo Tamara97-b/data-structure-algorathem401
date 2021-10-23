@@ -6,6 +6,7 @@ public class LinkedList<T>{
     Node head;
 
     public LinkedList(){
+
         head = null;
     }
 

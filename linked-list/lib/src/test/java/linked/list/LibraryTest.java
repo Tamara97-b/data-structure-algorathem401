@@ -6,8 +6,49 @@ package linked.list;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class LibraryTest {
+class LibraryTest{
+    @Test public void insertTest(){
 
+        LinkedList list = new LinkedList ();
+        list.insert(1);
+        list.insert(2);
+        list.insert(3);
+        System.out.println(list.toString());
+        String expected = "{ 3}->{ 2}->{ 1}->null";
+        assertEquals(expected,list.toString());
+
+    }
+    @Test public void testEmptyLinkedList() {
+        LinkedList list = new LinkedList ();
+
+        assertNull(list.head = null);
+    }
+    @Test public void testAppHasInserting() {
+        LinkedList list = new LinkedList ();
+        list.insert(9);
+        String checkingValue = "{ 9}->null";
+        assertEquals(checkingValue, list.toString());
+    }
+
+    @Test public void testTheHeadProperty() {
+        LinkedList list = new LinkedList();
+
+        list.insert(2);
+        list.insert(3);
+        assertEquals(2, list.head.next.value);
+    }
+    @Test public void testAppHasIncludingTrue() {
+        LinkedList list = new LinkedList();
+        list.append(12);
+        list.append(2);
+        assertTrue(list.includes(2));
+    }
+    @Test public void testAppHasIncludingFalse() {
+        LinkedList list = new LinkedList();
+        list.append(2);
+        list.append(4);
+        assertFalse(list.includes(12));
+    }
 
 
 }
