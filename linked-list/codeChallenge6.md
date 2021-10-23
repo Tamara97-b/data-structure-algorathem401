@@ -9,4 +9,4 @@ OOP Approach for flexibility and exy to read and fix.
 in this approach it not efficient because I use while for add, insert, includes, print.
 
 # white board
-![white board](./linkedListInsertion.PNG)
+![white board](linkedListInsertion.PNG)
