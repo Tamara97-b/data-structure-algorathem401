@@ -122,4 +122,15 @@ class LibraryTest {
         queue.peek();
         assertNull(queue.toString());
     }
+//    @Test void enqueueStack(){
+//        Stack<Integer> stack = new Stack<>();
+//        stack.push(5);
+//        stack.push(6);
+//        stack.pop();
+//        System.out.println(stack);
+//        String expected = "Stack: top=[5]-->NULL";
+//        assertEquals(expected,stack.toString());
+//    }
+
+
 }

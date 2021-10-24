@@ -25,5 +25,20 @@ public class Library {
         System.out.println("after dequeue"+queue);
         queue.peek();
         System.out.println(queue.peek());
+        System.out.println("lab11");
+        Stack<Integer> ontherStack = new Stack<Integer>();
+        ontherStack.push(1);
+        ontherStack.push(2);
+        ontherStack.push(3);
+        ontherStack.push(4);
+        ontherStack.pop();
+        System.out.println(ontherStack);
     }
+
+
+
+
+
+
 }
+

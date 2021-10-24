@@ -6,6 +6,8 @@ public class Library<head> {
         linkedList.insert(4);
         linkedList.insert(7);
         linkedList.insert(8);
+        linkedList.kthFromEnd(2);
+        System.out.println("after k th function");
         System.out.println(linkedList);
         System.out.println("after insert append");
         linkedList.append(10);
@@ -17,6 +19,7 @@ public class Library<head> {
         linkedList.insertAfter(5,7);
         System.out.println(linkedList);
         System.out.println(linkedList.includes(7));}
+
 
     }
 

@@ -1,7 +1,7 @@
 package stack.and.queue;
 
 public class Stack<T>{
-
+    int size;
 Node<T> top;
     public void push(T value){
         Node<T> newNode=new Node<T>(value);
@@ -9,6 +9,10 @@ Node<T> top;
         top=newNode;
     }
 
+    public int getSize() {
+
+        return size;
+    }
 
 
 
@@ -57,6 +61,7 @@ Node<T> top;
         }
         return stackList+"NULL";
     }
+
 
 
 }
