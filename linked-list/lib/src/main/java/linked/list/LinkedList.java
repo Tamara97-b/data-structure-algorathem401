@@ -1,9 +1,12 @@
 package linked.list;
 
-import java.util.Stack;
-
 public class LinkedList<T>{
     Node head;
+    int size;
+
+    public int getSize() {
+        return size;
+    }
 
     public LinkedList(){
 
@@ -95,7 +98,27 @@ public class LinkedList<T>{
 
     }
 
+
+    public Node kthFromEnd(int index) {
+
+       Node current = head;
+        if (head == null) {
+            System.out.println("The list is empty");
+        }
+        if (index > getSize() - 1 || index < 0) {
+            System.out.println("exception");
+        }
+        int i = 0;
+        while (i < (getSize() - index - 1)) {
+            current = current.next;
+            i++;
+        }
+        return current.next ;
+    }
+
 }
+
+
 
 
 
