@@ -1,1 +1,2 @@
-Stack: top=[5]-->NULL
+null
+“AnimalShelter[catGroup=Queue: front=[Cat{name= flora}]-->[Cat{name= losi}]=back, dogGroup=Queue: front=[Dog{name= roni}]-->[Dog{name= jad}]=back]

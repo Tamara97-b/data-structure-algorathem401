@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="stack.and.queue.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-24T17:36:34" hostname="LTUCSTUDENT-L15" time="0.024">
+<testsuite name="stack.and.queue.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-30T11:38:00" hostname="LTUCSTUDENT-L15" time="0.029">
   <properties/>
-  <testcase name="enqueueStack()" classname="stack.and.queue.LibraryTest" time="0.024"/>
-  <system-out><![CDATA[Stack: top=[5]-->NULL
+  <testcase name="animalShelterTest()" classname="stack.and.queue.LibraryTest" time="0.029"/>
+  <system-out><![CDATA[null
+AnimalShelter[catGroup=Queue: front=[Cat{name= flora}]-->[Cat{name= losi}]=back, dogGroup=Queue: front=[Dog{name= roni}]-->[Dog{name= jad}]=back]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
