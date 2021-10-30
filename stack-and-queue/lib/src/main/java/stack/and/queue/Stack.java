@@ -18,7 +18,6 @@ public class Stack<T> {
             temp.next = null;
             return temp.value;
         } catch (NullPointerException e) {
-            System.out.print("Caught the NullPointerException");
             return null;
         }
     }
@@ -30,7 +29,6 @@ public class Stack<T> {
         try {
             return top.value;
         } catch (NullPointerException e) {
-            System.out.print("Caught the NullPointerException");
             return null;
         }
     }

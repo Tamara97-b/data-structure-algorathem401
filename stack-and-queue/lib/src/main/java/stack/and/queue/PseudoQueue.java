@@ -4,14 +4,12 @@ public class PseudoQueue<T> {
     Stack<T> stack1=new Stack<>();
     Stack<T> stack2=new Stack<>();
 
-    // add an item to the back Node of the queue
     public void enqueue(T value){
 
         stack1.push(value);
 
     }
 
-    // removing the front Node of the queue.
     public T dequeue(){
         T dequeueValue = null;
         if (stack2.isEmpty()){

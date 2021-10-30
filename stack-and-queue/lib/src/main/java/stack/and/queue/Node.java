@@ -5,6 +5,7 @@ public class Node<T> {
 
     public Node(T value) {
         this.value = value;
+        System.out.println("-------------------------------");
     }
 
 }

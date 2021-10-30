@@ -11,7 +11,7 @@ public class AnimalShelter {
         } else if (animal instanceof Dog) {
             dogGroup.enqueue(animal);
         }else {
-            System.out.println("error");
+            System.out.println("errorr");
         }
 
     }

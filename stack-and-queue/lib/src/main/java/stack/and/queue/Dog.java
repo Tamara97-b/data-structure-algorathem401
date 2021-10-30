@@ -3,7 +3,7 @@ package stack.and.queue;
 
 public class Dog extends Animal{
     public Dog(String name) {
-        super(name,null,0);
+        super(name,null, 0);
     }
 
     @Override
@@ -12,4 +12,5 @@ public class Dog extends Animal{
                 "name= " + getName()
                 + '}';
     }
+
 }

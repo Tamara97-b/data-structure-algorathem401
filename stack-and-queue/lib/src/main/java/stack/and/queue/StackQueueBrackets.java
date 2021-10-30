@@ -23,6 +23,7 @@ public class StackQueueBrackets {
                 }
             }
         }
+        System.out.println("-------------------------------");
         return validatorStack.isEmpty();
     }
 }
