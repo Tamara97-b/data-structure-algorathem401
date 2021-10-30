@@ -3,8 +3,24 @@
  */
 package trees;
 
-public class Library {
-    public boolean someLibraryMethod() {
-        return true;
-    }
+
+        public class Library {
+            public boolean someLibraryMethod() {
+                return true;
+            }
+            public static void main(String[] args) {
+                BinaryTree<String> newTree = new BinaryTree<>();
+
+                Node<String> nodeD = new Node<>("D");
+                Node<String> nodeE = new Node<>("E");
+                Node<String> nodeB = new Node<>("B", nodeD, nodeE);
+                Node<String> nodeF = new Node<>("F");
+                Node<String> nodeC= new Node<>("C", nodeF, null);
+                Node<String> newTreeRoot = new Node<>("A", nodeB, nodeC);
+                System.out.println("preOrder: "+newTree.preOrder(newTreeRoot));
+                System.out.println("inOrder: "+newTree.inOrder(newTreeRoot));
+                System.out.println("postOrder: "+newTree.postOrder(newTreeRoot));
+                System.out.println(newTree.toString());
+
+            }
 }
