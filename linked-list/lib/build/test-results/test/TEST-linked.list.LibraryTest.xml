@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="linked.list.LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-23T19:15:30" hostname="LTUCSTUDENT-L15" time="0.026">
+  <properties/>
+  <testcase name="insertAfterLastNode()" classname="linked.list.LibraryTest" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
