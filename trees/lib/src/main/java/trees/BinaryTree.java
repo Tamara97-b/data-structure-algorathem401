@@ -9,42 +9,43 @@ public class BinaryTree<T> {
     ArrayList<T> postOrderList = new ArrayList<>();
 
     public ArrayList<T> preOrder(Node<T> root) {
-        try {
-            if (root != null) {
-                preOrderList.add(root.value);
-                preOrder(root.leftChild);
-                preOrder(root.rightChild);
-            }
-        } catch (NullPointerException nullPointerException) {
-            System.out.println(nullPointerException.getMessage());
+
+        if (root != null) {
+            preOrderList.add(root.value);
+            preOrder(root.leftChild);
+            preOrder(root.rightChild);
         }
-        return preOrderList;
-    }
+        else{
+            System.out.println("error");
+        }
+            return preOrderList;
+        }
 
     public ArrayList<T> inOrder(Node<T> root) {
-        try {
+
             if (root != null) {
                 inOrder(root.leftChild);
                 inOrderList.add(root.value);
                 inOrder(root.rightChild);
             }
-        } catch (NullPointerException nullPointerException) {
-            System.out.println(nullPointerException.getMessage());
-        }
+            else{
+                System.out.println("error");
+            }
+
         return inOrderList;
     }
 
     public ArrayList<T> postOrder(Node<T> root) {
-        try {
+
             if (root != null) {
                 postOrder(root.leftChild);
                 postOrder(root.rightChild);
                 postOrderList.add(root.value);
             }
 
-        } catch (NullPointerException nullPointerException) {
-            System.out.println(nullPointerException.getMessage());
-        }
+            else{
+                System.out.println("error");
+            }
         return postOrderList;
     }
 
