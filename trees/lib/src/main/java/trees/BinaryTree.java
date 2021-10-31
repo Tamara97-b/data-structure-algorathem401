@@ -48,7 +48,20 @@ public class BinaryTree<T> {
             }
         return postOrderList;
     }
+    public int maxNumber(Node <Integer> rootNode) {
+        if(rootNode==null) {
+            return Integer.MIN_VALUE;
+        }
 
+        int maxNum=rootNode.value;
+        int maxNumLeft= maxNumber(rootNode.leftChild);
+        int maxNumRight=maxNumber(rootNode.rightChild);
+        if(maxNumLeft>maxNum){
+            maxNum=maxNumLeft;}
+        if(maxNumRight>maxNum){
+            maxNum=maxNumRight;}
+        return maxNum;
+    }
     @Override
     public String toString() {
         if (preOrderList.isEmpty()&&inOrderList.isEmpty()&&postOrderList.isEmpty()) return "empty tree lists";
