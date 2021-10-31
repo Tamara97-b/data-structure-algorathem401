@@ -17,9 +17,9 @@ package trees;
                 Node<String> nodeF = new Node<>("F");
                 Node<String> nodeC= new Node<>("C", nodeF, null);
                 Node<String> newTreeRoot = new Node<>("A", nodeB, nodeC);
-                System.out.println("preOrder: "+newTree.preOrder(newTreeRoot));
-                System.out.println("inOrder: "+newTree.inOrder(newTreeRoot));
-                System.out.println("postOrder: "+newTree.postOrder(newTreeRoot));
+                System.out.println(newTree.preOrder(newTreeRoot));
+                System.out.println(newTree.inOrder(newTreeRoot));
+                System.out.println(newTree.postOrder(newTreeRoot));
                 System.out.println(newTree.toString());
 
             }
