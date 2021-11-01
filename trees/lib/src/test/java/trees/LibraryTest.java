@@ -86,6 +86,22 @@ class LibraryTest {
         String test = "BinaryTree{, preOrderList=[5, 1, 2, 3, 4, 6], inOrderList=[2, 1, 3, 5, 6, 4], postOrderList=[2, 3, 1, 6, 4, 5]}";
         assertEquals(test , tree.toString());
     }
+    @Test void maximumValueEmpty() {
 
+        BinaryTree<Integer> newTree = new BinaryTree<>();
+        assertEquals( 0 , newTree.maximumValue());
+        newTree.root = new Node<>(5);
+        assertEquals( 5 , newTree.maximumValue());
+        Node<Integer> node1 = new Node<>(50);
+        Node<Integer> node2 = new Node<>(52);
+        Node<Integer> node3 = new Node<>(7, node1, node2);
+        Node<Integer> node5 = new Node<>(3);
+        Node<Integer> node4 = new Node<>(2, node5, null);
+        newTree.root.rightChild = node4;
+        newTree.root.leftChild = node3;
+        System.out.println(newTree.maximumValue());
+        assertEquals( 52, newTree.maximumValue());
+
+    }
 
 }

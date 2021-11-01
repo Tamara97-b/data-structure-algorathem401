@@ -5,70 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf442952-f35d-49b5-bb80-c7a2cd4f5797" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/data-structure-algorathem401.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeChallenge6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/linked/list/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/linked/list/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/linked/list/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/linked/list/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedListInsertion.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Animal/AnimalAdded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Animal/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/PseudoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/main/java/stack/and/queue/cc11.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/lib/src/test/java/stack/and/queue/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/pseudoQueue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack-and-queue/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/linked/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/linked/list/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +52,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/codefellowship" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">

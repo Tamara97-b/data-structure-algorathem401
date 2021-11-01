@@ -99,46 +99,46 @@ public class LinkedList<T>{
     }
 
 
-    public Node kthFromEnd(int index) {
-
-       Node current = head;
-        if (head == null) {
-            System.out.println("The list is empty");
-        }
-        if (index > getSize() - 1 || index < 0) {
-            System.out.println("exception");
-        }
-        int i = 0;
-        while (i < (getSize() - index - 1)) {
-            current = current.next;
-            i++;
-        }
-        return current.next ;
-    }
-    public String kthFromEnd(int k) {
-        if (head == null) {
-            return "the node is empty";
-        }
-        Node<T> current = head;
-        int counter = 0;
-        while (current.next != null) {
-            current = current.next;
-            counter++;
-        }
-
-        if (k > counter || k < 0) {
-            return "Exception";
-        } else {
-            current = head;
-            for (int i = 0; i <= counter - k; i++) {
-                if (i == counter - k) {
-                    return "{" + current.value + "}";
-                }
-                current = current.next;
-            }
-        }
-        return "Exception";
-    }
+//    public Node kthFromEnd(int index) {
+//
+//       Node current = head;
+//        if (head == null) {
+//            System.out.println("The list is empty");
+//        }
+//        if (index > getSize() - 1 || index < 0) {
+//            System.out.println("exception");
+//        }
+//        int i = 0;
+//        while (i < (getSize() - index - 1)) {
+//            current = current.next;
+//            i++;
+//        }
+//        return current.next ;
+//    }
+//    public String kthFromEnd(int k) {
+//        if (head == null) {
+//            return "the node is empty";
+//        }
+//        Node<T> current = head;
+//        int counter = 0;
+//        while (current.next != null) {
+//            current = current.next;
+//            counter++;
+//        }
+//
+//        if (k > counter || k < 0) {
+//            return "Exception";
+//        } else {
+//            current = head;
+//            for (int i = 0; i <= counter - k; i++) {
+//                if (i == counter - k) {
+//                    return "{" + current.value + "}";
+//                }
+//                current = current.next;
+//            }
+//        }
+//        return "Exception";
+//    }
 
 }
 
