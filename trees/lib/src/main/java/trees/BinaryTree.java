@@ -68,6 +68,46 @@ public class BinaryTree<T> {
     }
 
 
+    public void  binaryTree() {
+        root = null;
+    }
+
+    void printLevelOrder()
+    {
+        int h = height(root);
+        int i;
+        for (i = 1; i <= h; i++)
+            breadthfirst(root, i);
+    }
+
+
+    int height(Node root)
+    {
+        if (root == null)
+            return 0;
+        else {
+            int lheight = height(root.leftChild);
+            int rheight = height(root.rightChild);
+
+            if (lheight > rheight)
+                return (lheight + 1);
+            else
+                return (rheight + 1);
+        }
+    }
+
+
+    void  breadthfirst(Node root, int level)
+    {
+        if (root == null)
+            return;
+        if (level == 1)
+            System.out.print(root.value + " ");
+        else if (level > 1) {
+            breadthfirst(root.leftChild, level - 1);
+            breadthfirst(root.rightChild, level - 1);
+        }
+    }
     @Override
     public String toString() {
         if (preOrderList.isEmpty()&&inOrderList.isEmpty()&&postOrderList.isEmpty()) return "empty tree lists";

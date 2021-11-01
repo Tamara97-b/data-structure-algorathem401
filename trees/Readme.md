@@ -29,3 +29,14 @@ Space : O(1).
 
 ### whiteboard : 
 ![cc 16]( images/tree-max.png)
+
+### code challange 17
+### description
+Write a function called breadth first
+Arguments: tree
+Return: list of all values in the tree, in the order they were encountered
+### Approach & Efficiency :
+
+big O(1)
+### whiteboard :
+![cc 17]( images/bredthfirst.PNG)

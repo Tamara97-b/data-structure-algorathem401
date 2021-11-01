@@ -59,6 +59,17 @@ public class Library {
         newTree1.root.rightChild = node4;
         newTree1.root.leftChild = node3;
         System.out.println("The max value is: "+newTree1.maximumValue());
+
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(5);
+        tree.root.leftChild = new Node(1);
+        tree.root.rightChild = new Node(4);
+        tree.root.rightChild.rightChild = new Node(2);
+        tree.root.leftChild.leftChild = new Node(3);
+        System.out.println("Level order traversal of binary tree is ");
+        System.out.println(tree);
+                tree.printLevelOrder();
+
     }
 }
 

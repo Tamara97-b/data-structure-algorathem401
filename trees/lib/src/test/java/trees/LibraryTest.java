@@ -104,4 +104,17 @@ class LibraryTest {
 
     }
 
-}
+//    @Test String traversal (){
+//        BinaryTree tree = new BinaryTree();
+//        tree.root = new Node(5);
+//        tree.root.leftChild = new Node(1);
+//        tree.root.rightChild = new Node(4);
+//        tree.root.rightChild.rightChild = new Node(2);
+//        tree.root.leftChild.leftChild = new Node(3);
+//
+//        System.out.println(tree.breadthfirst(Node<T> tree,3));
+//        String expected =
+    }
+
+
+
