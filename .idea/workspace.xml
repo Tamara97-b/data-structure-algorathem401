@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d3da7da-4822-4992-8439-305766f4be6a" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/linkedList2/images/Kth.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList2/images/zipLinkedlist.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList2/lib/src/main/java/linkedList2/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList2/lib/src/main/java/linkedList2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList2/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trees/lib/src/main/java/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/trees/lib/src/main/java/trees/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list/lib/src/main/java/linked/list/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/trees" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linkedList2" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
